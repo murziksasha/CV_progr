@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #f1f1f1;
+  color: #0f141e;
+  box-sizing: border-box;
+}
+
+.info {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  opacity: .8;
+  color: #000;
+}
+
+a:hover{
+  opacity: 1;
+  color:bisque;
+  text-decoration: underline;
+}
+
+.btn {
+  background-color: #111;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 20%;
+  cursor:pointer;
+}
+
+.btn:hover{
+  opacity: .8;
+  background-color: #fff;
+  color: #111;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding-top: 30px;
+ 
+  
+}
+
+.info img {
+  box-shadow: 4px 4px 14px rgba(0,0,0, .25);
+  border-radius: 10%;
+}
+
+.info-text {
+  font-style: italic;
+  font-weight: bold;
+  line-height: 25px;
+  margin-left: 30px;
+}
+
+.card-social {
+  background-color: lightblue;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.social__link{
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.card-hobbies{
+  background-color: yellow;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.hobbies-list{
+  line-height: 30px;
+  display:flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-experience {
+  background-color: indigo;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.card-message{
+  border-radius: 10px;
+  text-align: center;
+}
