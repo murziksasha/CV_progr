@@ -29,8 +29,9 @@ a:hover{
 .btn {
   background-color: #111;
   color: #fff;
+  width: 100px;
   padding: 15px 20px;
-  border-radius: 20%;
+  border-radius: 50%;
   cursor:pointer;
 }
 
@@ -99,6 +100,22 @@ a:hover{
 }
 
 .card-message{
-  border-radius: 10px;
   text-align: center;
+  justify-content: center;
+  
+}
+
+.group1{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+#textAr{
+  width: 80%;
+}
+
+.group2{
+  
+  
 }
