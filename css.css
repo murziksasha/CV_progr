@@ -115,7 +115,10 @@ a:hover{
   width: 80%;
 }
 
-.group2{
-  
-  
+table{
+  margin: 0 auto;
+}
+
+td{
+  border: solid 2px;
 }
