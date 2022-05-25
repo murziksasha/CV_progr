@@ -1,0 +1,98 @@
+.about {
+  position: relative;
+  padding-top: 120px;
+  min-height: 600px;
+  display: flex;
+  justify-content: space-between;
+
+  &__photo {
+    width: 400px;
+    height: 100%;
+    img{
+      max-width: 400px;
+      height: 100%;
+    }
+  }
+
+  &__descr {
+    width: 570px;
+  }
+}
+.descr {
+
+  &__myName {
+  }
+
+  &__proMe {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    padding-left: 10px;
+    z-index: 2;
+    @include before_circle; 
+  }
+
+  &__about {
+    h2 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 60px;
+    }
+
+  }
+
+  &__devider {
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 40px;
+  }
+
+  &__my-work {
+    width: 570px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+
+    &_1 {
+      width: 260px;
+      display: flex;
+      justify-content: space-between;
+      h3 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+      }
+      p{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+    }
+
+    &_ico {
+      margin-right: 25px;
+      position: relative;
+      padding-left: 10px;
+      z-index: 2;
+      @include before_circle; 
+      &:before{
+        top: -4%;
+        left: -4px;
+      }
+    }
+
+
+  }
+}
+

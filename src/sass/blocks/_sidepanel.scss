@@ -7,11 +7,18 @@
   justify-content: space-between;
   height: 340px;
   z-index: 3;
+  transition: all .5s ease;
 
   &__link {
     margin: 0 auto;
     img{
       cursor: pointer;
+      &:hover{
+
+        border-radius: 100%;
+        background-color: $main-color;
+        transform: scale(1.4);
+      }
     }
   }
 
