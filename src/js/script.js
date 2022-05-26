@@ -12,5 +12,13 @@ window.addEventListener("DOMContentLoaded",()=>{
   //   })
   // })
 
+  //value on skills
+  const valueRating = document.querySelectorAll('.skills__gradient_count');
+  const factRatioLine = document.querySelectorAll('.skills__gradient_fact');
+
+  valueRating.forEach((item, i) => {
+    factRatioLine[i].style.width = item.innerHTML;
+  });
+
 
 })
