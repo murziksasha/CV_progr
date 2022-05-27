@@ -1,0 +1,51 @@
+.pricelist {
+  padding-top: 60px;
+  &__title{
+    margin-bottom: 31px;
+  }
+
+  &__wrapper {
+    position: relative;
+    display: grid;
+    grid-template: repeat(3, minmax(44px, auto)) / repeat(2, 366px);
+    grid-auto-rows: minmax(44px, auto) ;
+    row-gap: 15px;
+    justify-content: space-between;
+  }
+
+  &__card {
+    position: relative;
+    padding-left: 25px;
+    &:before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      background-color: $main-color;
+      border-radius: 100%;
+      position: absolute;
+      top: 3px; 
+      left: 0;
+    }
+  }
+
+  &__card-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__card-name {
+    margin-bottom: 5px;
+  }
+
+  &__card-value {
+  }
+
+  &__card-descr {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

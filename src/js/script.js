@@ -5,12 +5,12 @@ window.addEventListener("DOMContentLoaded",()=>{
   const menuClose= document.querySelector('.menu__close');
   const hamburger = document.querySelector('.hamburger');
 
-  // hamburger.addEventListener('click',()=>{
-  //     menuBlock.classList.add('active');
-  //     menuClose.addEventListener('click', ()=>{
-  //     menuBlock.classList.remove('active');
-  //   })
-  // })
+  hamburger.addEventListener('click',()=>{
+      menuBlock.classList.add('active');
+      menuClose.addEventListener('click', ()=>{
+      menuBlock.classList.remove('active');
+    })
+  })
 
   //value on skills
   const valueRating = document.querySelectorAll('.skills__gradient_count');

@@ -1,0 +1,23 @@
+.projects {
+  padding-top: 131px;
+
+  &__items {
+    display: grid;
+    grid-template: repeat(2, 280px) / repeat(4, 280px);
+    gap: 5px;
+    a:hover{
+      filter: grayscale(.75);
+    }
+    &_vertical {
+      grid-column: 4/5;
+     
+    }
+    &_horizontal {
+      grid-row: 2/4;
+      grid-column: 2/3;
+
+    }
+  }
+}
+
+
