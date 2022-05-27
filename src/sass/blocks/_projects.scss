@@ -5,9 +5,14 @@
     display: grid;
     grid-template: repeat(2, 280px) / repeat(4, 280px);
     gap: 5px;
-    a:hover{
-      filter: grayscale(.75);
+    a {
+      transition: all .5s ease;
+      &:hover{
+        filter: grayscale(.75);
+        transform: scale(.99);
+      }
     }
+
     &_vertical {
       grid-column: 4/5;
      
