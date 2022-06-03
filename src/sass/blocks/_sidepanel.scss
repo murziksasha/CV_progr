@@ -13,10 +13,11 @@
     margin: 0 auto;
     img{
       cursor: pointer;
+      border: 1px solid #fff;
       &:hover{
 
         border-radius: 100%;
-        background-color: $main-color;
+        background-color: #fff;
         transform: scale(1.4);
       }
     }
