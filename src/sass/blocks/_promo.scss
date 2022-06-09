@@ -1,9 +1,8 @@
 .promo {
   min-height: 100vh;
   position: relative;
-  background-color: #000;
-  // background: url('../img/main_BG.png') no-repeat 50%/cover;
-  padding-top: 150px;
+  background-color: rgb(188, 206, 233);
+  padding-top: 230px;
   color: #fff;
 
   &__logo{
@@ -14,7 +13,7 @@
       height: 521px;
       position: absolute;
       top: -364px;
-      right: 180px;
+      right: 77px;
       border-radius: 50% ;
 
     }

@@ -1,12 +1,79 @@
 @media (max-width: 1200px) {
-  .wrapper {
-    max-width: 960px;
-  }
+
+    .promo{
+      .hamburger{
+        height: 26px;
+        top: 52px;
+        right: 77px;
+      }
+      .wrapper {
+        max-width: 960px;
+
+      }
+      &__logo img{
+        right: -29px;
+      }
+      .sidepanel{
+        left: 150px;
+      }
+
+    }
+
+
+  
 }
 
 @media (max-width: 992px) {
-  .wrapper {
-    max-width: 720px;
+    .promo{
+      .hamburger{
+        height: 32px;
+        top: 79px;
+        right: 203px;
+      }
+    .wrapper {
+      max-width: 720px;
+    }
+    &__logo img{
+      right: -214px;
+    }
+    .sidepanel{
+      left: 267px;
+      font-size: 25px;
+    }
+    &__title{
+      font-size: 42px;
+      margin-top: 20px;
+    }
+    &__subtitle{
+      font-size: 24px;
+    }
+
+    &__btns{
+      margin-top: 40px;
+    }
+  }
+
+  .menu__block{
+    width: 35%;
+    height: 120%;
+    .menu__close {
+      top: 33px;
+      right: 57px;
+    }
+    .menu__list {
+      text-align: center;
+    }
+    .menu__link{
+      font-size: 38px;
+      line-height: 50px
+    }
+
+    .menu__link::before{
+      left: 100px;
+      height: 20px;
+      width: 20px;
+    }
+
   }
 }
 
@@ -17,8 +84,55 @@
 }
 
 @media (max-width: 576px) {
-  .wrapper {
-    width: 100%;
-    padding: 0 10px;
+    .container{
+      max-width: 100vmin;
+    }
+    .promo{
+      width: 201%;
+      .sidepanel{
+        display: none;
+      }
+      &__logo img{
+        right: -119px;
+        top: 7px;
+        height: 348px;
+        width: 321px;
+
+      }
+  
+    .wrapper {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0 10px;
+    }
   }
+
+  .menu__block{
+    width: 100%;
+    height: 200%;
+    .menu__close {
+      top: 33px;
+      right: 57px;
+    }
+    .menu__list {
+      height: 100%;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .menu__link{
+      font-size: 45px;
+      line-height: 55px;
+    }
+
+    .menu__link::before{
+      display: none;
+    }
+
+  }
+  
 }
