@@ -81,6 +81,17 @@
   .wrapper {
     max-width: 540px;
   }
+  .promo{
+    .hamburger{
+      height: 32px;
+      top: 79px;
+      right: 203px;
+    }
+    .menu{
+      height: 130vh;
+      width: 280vw;
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -88,7 +99,7 @@
       max-width: 100vmin;
     }
     .promo{
-      width: 201%;
+      width: 227vw;
       .sidepanel{
         display: none;
       }
@@ -111,8 +122,8 @@
   }
 
   .menu__block{
-    width: 100%;
-    height: 200%;
+    width: 45%;
+    height: 100%;
     .menu__close {
       top: 33px;
       right: 57px;
@@ -135,4 +146,19 @@
 
   }
   
+}
+
+@media (max-width: 508px) {
+  .promo {
+    width: 356%;
+    position: relative;
+    margin-top: -110px;
+    .hamburger {
+      right:18%;
+      top: 3%;
+    }
+    .menu__block{
+      width: 105%;
+    }
+  }
 }
