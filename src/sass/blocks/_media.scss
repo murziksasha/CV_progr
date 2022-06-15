@@ -79,7 +79,8 @@
 
 @media (max-width: 768px) {
   .wrapper {
-    max-width: 540px;
+    max-width: 50%;
+
   }
   .promo{
     .hamburger{
@@ -90,6 +91,37 @@
     .menu{
       height: 130vh;
       width: 280vw;
+    }
+  }
+
+  .about {
+    &__photo{
+      display: none;
+    }
+    &__descr{
+      width: 100%;
+    }
+    .descr {
+      &__proMe{
+        font-size: 16px;
+      }
+      &__about h2{
+        font-size: 42px;
+      }
+      &__about p{
+        font-size: 22px;
+      }
+      &__my-work{
+        margin: 0 auto;
+        flex-flow: column nowrap;
+        justify-items: center;
+        justify-content: space-between;
+        &_1{
+          min-width: 520px;
+          min-height: 100px;
+        }
+      }
+
     }
   }
 }
